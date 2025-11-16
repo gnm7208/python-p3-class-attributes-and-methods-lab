@@ -47,8 +47,7 @@ print(Song.artist_count)
 print(Song.genre_count)
 print(Song.artist_count)  
 
-Song.add_to_artist_count(song1.artist)
-Song.add_to_artist_count(song2.artist)
+
 Song.add_to_artists(song4.artist)
 Song.add_to_artists(song5.artist)
 Song.add_to_artists(song3.artist)
@@ -58,6 +57,13 @@ Song.add_to_genres(song2.genre)
 Song.add_to_genres(song4.genre)
 Song.add_to_genres(song5.genre)
 Song.add_to_genres(song3.genre)
+
+Song.add_to_artist_count(song1.artist)
+Song.add_to_artist_count(song2.artist)
+Song.add_to_artist_count(song3.artist)
+Song.add_to_artist_count(song4.artist)  
+Song.add_to_artist_count(song5.artist)
+
 
 Song.add_to_genre_count(song1.genre)
 Song.add_to_genre_count(song2.genre)
