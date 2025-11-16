@@ -33,10 +33,6 @@ class Song:
     def add_to_genre_count(cls, genre):
         cls.genre_count[genre] = cls.genre_count.get(genre, 0) + 1
 
-    @classmethod
-    def add_to_genre_count(cls, genre):
-        cls.genre_count[genre] = cls.genre_count.get(genre, 0) + 1
-
 song1 = Song("99 Problems", "Jay-Z", "Rap")
 song2 = Song("Midnight Train", "Sauti Sol", "Pop")
 song3 = Song("Smells Like Teen Spirit", "Nirvana", "Rock")
